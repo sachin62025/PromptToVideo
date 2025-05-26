@@ -20,7 +20,7 @@ A web application that converts text prompts into animated videos using Manim an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/PromptToVideo.git
+https://github.com/sachin62025/PromptToVideo.git
 cd PromptToVideo
 ```
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 3. Configure your Gemini API key in `app/services/llm_service.py`
-
+ - You need to give your Gemini API key
 ## Usage
 
 1. Start the server:
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-2. Open your browser and navigate to `http://localhost:8000`
+2. Open your browser and navigate to `http://127.0.0.1:8000/`
 
 3. Enter your prompt describing the animation you want to create
 
@@ -56,6 +56,8 @@ PromptToVideo/
 │   │   ├── tts_service.py
 │   │   └── merge_service.py
 │   └── routes/
+|             |── video.py
+|
 ├── manim_scenes/
 ├── static/
 │   ├── css/
