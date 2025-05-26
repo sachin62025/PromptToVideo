@@ -1,0 +1,72 @@
+2025-05-26 16:08:44,400 - app.routes.video - INFO - Received video generation request for prompt: Animate a sine wave and show a dot moving smoothly along the curve with labels on peaks and troughs
+2025-05-26 16:08:44,430 - app.routes.video - INFO - Generating Manim code using LLM
+2025-05-26 16:08:44,432 - app.services.llm_service - INFO - Generating Manim code for prompt: Animate a sine wave and show a dot moving smoothly along the curve with labels on peaks and troughs
+2025-05-26 16:08:51,340 - app.services.llm_service - INFO - Successfully generated Manim code
+2025-05-26 16:08:51,341 - app.routes.video - INFO - Rendering video with Manim
+2025-05-26 16:08:51,342 - app.services.manim_service - INFO - Starting Manim video rendering
+2025-05-26 16:08:51,344 - app.services.manim_service - INFO - Successfully wrote scene code to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py
+2025-05-26 16:08:51,344 - app.services.manim_service - INFO - Running Manim command: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\venv\Scripts\python.exe -m manim -pql C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py GeneratedScene
+2025-05-26 16:09:18,893 - app.services.manim_service - INFO - Manim command completed successfully
+2025-05-26 16:09:18,897 - app.services.manim_service - INFO - Copied video to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4
+2025-05-26 16:09:18,897 - app.routes.video - INFO - Generating audio
+2025-05-26 16:09:20,886 - app.routes.video - INFO - Merging video and audio
+2025-05-26 16:09:20,888 - app.services.merge_service - INFO - Merging video: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4 and audio: outputs/audio.mp3
+2025-05-26 16:09:21,939 - app.services.merge_service - INFO - Video duration: 19.0, Audio duration: 7.03
+2025-05-26 16:09:25,947 - app.services.merge_service - INFO - Final video saved to: static/final_video.mp4
+2025-05-26 16:09:25,947 - app.routes.video - INFO - Video generation completed successfully: static/final_video.mp4
+2025-05-26 16:13:20,652 - app.routes.video - INFO - Received video generation request for prompt: Animate the orbits of the eight planets around the Sun, with labels and different speeds.
+2025-05-26 16:13:20,664 - app.routes.video - INFO - Generating Manim code using LLM
+2025-05-26 16:13:20,665 - app.services.llm_service - INFO - Generating Manim code for prompt: Animate the orbits of the eight planets around the Sun, with labels and different speeds.
+2025-05-26 16:13:27,295 - app.services.llm_service - INFO - Successfully generated Manim code
+2025-05-26 16:13:27,296 - app.routes.video - INFO - Rendering video with Manim
+2025-05-26 16:13:27,297 - app.services.manim_service - INFO - Starting Manim video rendering
+2025-05-26 16:13:27,299 - app.services.manim_service - INFO - Successfully wrote scene code to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py
+2025-05-26 16:13:27,299 - app.services.manim_service - INFO - Running Manim command: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\venv\Scripts\python.exe -m manim -pql C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py GeneratedScene
+2025-05-26 16:17:30,302 - app.services.manim_service - INFO - Manim command completed successfully
+2025-05-26 16:17:30,307 - app.services.manim_service - INFO - Copied video to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4
+2025-05-26 16:17:30,309 - app.routes.video - INFO - Generating audio
+2025-05-26 16:17:31,465 - app.routes.video - INFO - Merging video and audio
+2025-05-26 16:17:31,468 - app.services.merge_service - INFO - Merging video: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4 and audio: outputs/audio.mp3
+2025-05-26 16:17:32,849 - app.services.merge_service - INFO - Video duration: 172.0, Audio duration: 6.5
+2025-05-26 16:18:48,578 - app.services.merge_service - INFO - Final video saved to: static/final_video.mp4
+2025-05-26 16:18:48,582 - app.routes.video - INFO - Video generation completed successfully: static/final_video.mp4
+2025-05-26 16:26:46,179 - app.routes.video - INFO - Received video generation request for prompt: Animate a sine wave and show a dot moving smoothly along the curve with labels on peaks and troughs.
+2025-05-26 16:26:46,180 - app.routes.video - INFO - Generating Manim code using LLM
+2025-05-26 16:26:46,204 - app.services.llm_service - INFO - Generating Manim code for prompt: Animate a sine wave and show a dot moving smoothly along the curve with labels on peaks and troughs.
+2025-05-26 16:26:53,684 - app.services.llm_service - INFO - Successfully generated Manim code
+2025-05-26 16:26:53,687 - app.routes.video - INFO - Rendering video with Manim
+2025-05-26 16:26:53,688 - app.services.manim_service - INFO - Starting Manim video rendering
+2025-05-26 16:26:53,692 - app.services.manim_service - INFO - Successfully wrote scene code to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py
+2025-05-26 16:26:53,692 - app.services.manim_service - INFO - Running Manim command: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\venv\Scripts\python.exe -m manim -pql C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py GeneratedScene
+2025-05-26 16:54:52,277 - app.routes.video - INFO - Received video generation request for prompt: Create an animation of bubble sort comparing and swapping bars with color highlights
+2025-05-26 16:54:52,298 - app.routes.video - INFO - Generating Manim code using LLM
+2025-05-26 16:54:52,307 - app.services.llm_service - INFO - Generating Manim code for prompt: Create an animation of bubble sort comparing and swapping bars with color highlights
+2025-05-26 16:54:59,286 - app.services.llm_service - INFO - Successfully generated Manim code
+2025-05-26 16:54:59,287 - app.routes.video - INFO - Rendering video with Manim
+2025-05-26 16:54:59,287 - app.services.manim_service - INFO - Starting Manim video rendering
+2025-05-26 16:54:59,290 - app.services.manim_service - INFO - Successfully wrote scene code to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py
+2025-05-26 16:54:59,291 - app.services.manim_service - INFO - Running Manim command: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\venv\Scripts\python.exe -m manim -pql C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py GeneratedScene
+2025-05-26 16:56:17,690 - app.services.manim_service - INFO - Manim command completed successfully
+2025-05-26 16:56:17,703 - app.services.manim_service - INFO - Copied video to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4
+2025-05-26 16:56:17,704 - app.routes.video - INFO - Generating audio
+2025-05-26 16:56:18,709 - app.routes.video - INFO - Merging video and audio
+2025-05-26 16:56:18,711 - app.services.merge_service - INFO - Merging video: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4 and audio: outputs/audio.mp3
+2025-05-26 16:56:20,928 - app.services.merge_service - INFO - Video duration: 146.0, Audio duration: 6.05
+2025-05-26 16:57:05,650 - app.services.merge_service - INFO - Final video saved to: static/final_video.mp4
+2025-05-26 16:57:05,651 - app.routes.video - INFO - Video generation completed successfully: static/final_video.mp4
+2025-05-26 17:04:45,328 - app.routes.video - INFO - Received video generation request for prompt: Animate both sine and cosine waves in parallel on a single coordinate axis.
+2025-05-26 17:04:45,352 - app.routes.video - INFO - Generating Manim code using LLM
+2025-05-26 17:04:45,354 - app.services.llm_service - INFO - Generating Manim code for prompt: Animate both sine and cosine waves in parallel on a single coordinate axis.
+2025-05-26 17:04:50,841 - app.services.llm_service - INFO - Successfully generated Manim code
+2025-05-26 17:04:50,842 - app.routes.video - INFO - Rendering video with Manim
+2025-05-26 17:04:50,842 - app.services.manim_service - INFO - Starting Manim video rendering
+2025-05-26 17:04:50,844 - app.services.manim_service - INFO - Successfully wrote scene code to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py
+2025-05-26 17:04:50,844 - app.services.manim_service - INFO - Running Manim command: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\venv\Scripts\python.exe -m manim -pql C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\manim_scenes\generated_scene.py GeneratedScene
+2025-05-26 17:05:03,220 - app.services.manim_service - INFO - Manim command completed successfully
+2025-05-26 17:05:03,222 - app.services.manim_service - INFO - Copied video to C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4
+2025-05-26 17:05:03,223 - app.routes.video - INFO - Generating audio
+2025-05-26 17:05:04,290 - app.routes.video - INFO - Merging video and audio
+2025-05-26 17:05:04,291 - app.services.merge_service - INFO - Merging video: C:\Users\sachi\python\3-DAT-dont-open\PromptToVideo\static\rendered.mp4 and audio: outputs/audio.mp3
+2025-05-26 17:05:05,939 - app.services.merge_service - INFO - Video duration: 7.0, Audio duration: 6.17
+2025-05-26 17:05:09,756 - app.services.merge_service - INFO - Final video saved to: static/final_video.mp4
+2025-05-26 17:05:09,757 - app.routes.video - INFO - Video generation completed successfully: static/final_video.mp4
