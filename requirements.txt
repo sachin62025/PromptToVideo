@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+google-generativeai
+moviepy
+manim
+numpy
+scipy
+gtts
+jinja2
+python-multipart
+decorator
+cloup
+rich
+pywin32
+wmi
