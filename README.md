@@ -75,6 +75,16 @@ PromptToVideo/
 5. Video and audio are merged into the final output
 6. The result is displayed in the web interface
 
+## Example
+
+![Screenshot 2025-05-26 172114](https://github.com/user-attachments/assets/218725d8-8859-47d0-a30a-79186996d8a5)
+
+### Video 
+for sine and cosine wave animation
+
+https://github.com/user-attachments/assets/0be5a115-313c-4ade-8d78-53cfd1e33e6d
+
+
 ## License
 
 MIT License
