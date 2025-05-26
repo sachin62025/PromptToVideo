@@ -83,6 +83,11 @@ PromptToVideo/
 for sine and cosine wave animation
 
 https://github.com/user-attachments/assets/0be5a115-313c-4ade-8d78-53cfd1e33e6d
+### Example of Bubble sort
+
+
+
+https://github.com/user-attachments/assets/59f42228-cb5f-4c75-8009-1c1748c6047f
 
 
 ## License
