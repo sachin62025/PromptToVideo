@@ -75,6 +75,8 @@ PromptToVideo/
 5. Video and audio are merged into the final output
 6. The result is displayed in the web interface
 
+![arc](https://github.com/user-attachments/assets/484935b9-e8bb-453a-9a8c-c3008e750523)
+
 ## Example
 
 ![Screenshot 2025-05-26 172114](https://github.com/user-attachments/assets/218725d8-8859-47d0-a30a-79186996d8a5)
